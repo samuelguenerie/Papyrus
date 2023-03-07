@@ -1,0 +1,5 @@
+{
+  "**/*.{css,scss,sass}": "npx stylelint --fix --ignore-path .gitignore",
+  "**/*.{vue,js,jsx,cjs,mjs,.s,tsx,cts,mts}": "npx eslint --fix --ignore-path .gitignore",
+  "**/*": "npx prettier --ignore-unknown --write"
+}
