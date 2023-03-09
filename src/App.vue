@@ -4,8 +4,6 @@ import { RouterLink, RouterView } from 'vue-router'
 
 <template>
   <header>
-    <img alt="Papyrus logo" src="@/assets/logo.svg" width="125" height="125" />
-
     <nav>
       <RouterLink to="/">Home</RouterLink>
     </nav>
